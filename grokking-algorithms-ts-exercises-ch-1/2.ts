@@ -9,5 +9,5 @@ function maxBinarySearchSteps(listSize: number): number {
 
 const listSize = 256;
 
-console.log( '${256}', maxSimpleSearchSteps(listSize));
-console.log('${256}', maxBinarySearchSteps(listSize));
+console.log(maxSimpleSearchSteps(listSize));
+console.log(maxBinarySearchSteps(listSize));
