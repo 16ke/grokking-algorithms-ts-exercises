@@ -33,10 +33,10 @@ console.log("Hash A outputs:");
 batterySizes.forEach(battery => console.log(`"${battery}": ${hashA(battery)}`));
 
 console.log("Hash B outputs:");
-batterySizes.forEach(battery => console.log(`"${battery}": ${hashB(battery)}`));
+batterySizes.forEach(battery => console.log(`"${battery}": ${hashB(battery)}`));  // More distribution and less incidence
 
 console.log("Hash C outputs:");
 batterySizes.forEach(battery => console.log(`"${battery}": ${hashC(battery)}`));
 
 console.log("Hash D outputs:");
-batterySizes.forEach(battery => console.log(`"${battery}": ${hashD(battery)}`));
+batterySizes.forEach(battery => console.log(`"${battery}": ${hashD(battery)}`));  // More distribution and less incidence
